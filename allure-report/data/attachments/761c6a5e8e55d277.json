@@ -1,0 +1,19 @@
+{
+  "message": "Access granted, created successfully",
+  "statusCode": 201,
+  "data": {
+    "id": 93,
+    "name": "Test Product1729580046476",
+    "price": 1000,
+    "description": "This is a test product",
+    "imageUrl": null,
+    "stock": 100,
+    "categoryId": 1,
+    "slug": "test-product1729580046476",
+    "disabled": false,
+    "createdAt": "2024-10-22T13:54:06.8583597",
+    "updatedAt": "2024-10-22T13:54:06.8583597",
+    "feedbacks": [],
+    "averageRating": null
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "plat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "codeceptjs run --steps",
+    "script": "codeceptjs run --plugins allure",
+    "report": "allure generate ./allure-results --clean -o ./allure-report",
+    "open": "allure open ./allure-report",
+    "serve": "allure serve ./allure-results"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@codeceptjs/configure": "^1.0.1",
+    "allure-codeceptjs": "^3.0.5",
+    "allure-commandline": "^2.30.0",
+    "chai": "^5.1.1",
+    "codeceptjs": "^3.6.7",
+    "codeceptjs-chai": "^2.3.5",
+    "form-data": "^4.0.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
