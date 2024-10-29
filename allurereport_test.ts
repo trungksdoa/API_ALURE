@@ -42,7 +42,7 @@ Before(async ({ I }) => {
 
   const loginResponse = await I.sendPostRequest("/api/users/auth/login", {
     email: "trungksdoa@gmail.com",
-    password: "BI-1CMAWCU=y",
+    password: "WXx4M50I#E8O",
   });
 
   I.seeResponseCodeIsSuccessful();
